@@ -1,0 +1,53 @@
+body {
+  background-color: rgba(36, 37, 42, 1);
+  background: url("https://images.alphacoders.com/627/thumb-1920-627822.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+#navbarnav {
+  height: 50px;
+  background: #b7d84b;
+  position:fixed;
+  z-index:10;
+  width:900px;
+  top:0;
+}
+
+.fab {
+  padding: 5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.fab:hover {
+  opacity: 0.7;
+  color: white;
+}
+
+.nav-link:hover {
+  background-color: #686b7a;
+}
+
+a:active {
+  background-color: #686b7a;
+  color: #686b7a;
+}
+
+.container>.row>.text-left {
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+  display: inline-block;
+}
+
+.card
+{
+    margin-bottom: 15px;
+}
