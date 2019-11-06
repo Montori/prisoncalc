@@ -1,9 +1,20 @@
-body {
+body{
   background-color: rgba(36, 37, 42, 1);
-  background: url("https://images.alphacoders.com/627/thumb-1920-627822.jpg");
+  background: url("/resources/background.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
   background-attachment: fixed;
+}
+
+@media (orientation: landscape) {
+  body {
+    background-size: 100% 100%;
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+    background-size: auto;
+  }
 }
 
 #navbarnav {
