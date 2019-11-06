@@ -20,7 +20,7 @@ function calculate()
   }
 
   switch (document.getElementById('inputMealVar').value) {
-    case "None": costVar = quantity; break;
+    case "None": costVar = 0; break;
     case "Low": costVar = quantity*2; break;
     case "Medium": costVar = quantity*6; break;
     case "High": costVar = quantity*10; break;
