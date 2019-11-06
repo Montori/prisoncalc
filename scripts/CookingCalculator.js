@@ -20,21 +20,28 @@ function calculate()
   }
 
   switch (document.getElementById('inputMealVar').value) {
+    case "None" : variety = 0; break;
+    case "Low": variety = 1; break;
+    case "Medium": variety = 2; break;
+    case "High": variety = 3; break;
+  }
+
+  switch (document.getElementById('inputMealVar').value) {
     case "None": costVar = 0; break;
     case "Low": costVar = quantity*2; break;
     case "Medium": costVar = quantity*6; break;
     case "High": costVar = quantity*10; break;
   }
 
-  let ingreds = Math.floor(quantity * prisoner * 1.5);
+  let ingreds = Math.floor(variety * prisoner * 1.5);
   let ingredsCooked = quantity*prisoner;
-  let fridges = Math.floor(ingreds/40);
   let cookers = Math.floor(quantity == 1 ? prisoner/30 : quantity == 2 ? prisoner/20 : quantity == 3 ? prisoner/10 : prisoner/5);
+  let fridges = Math.floor(variety == 1 ? cookers*1.3 : variety == 2 ? cookers*1.7 : variety == 3 ? cookers*2 : cookers);
   let cooks = cookers+2;
   let bins = 1;
   let sinks = Math.floor(prisoner/30);
   let benches = Math.floor(prisoner/4);
-  let tables = Math.floor(prisoner/8);
+  let tables = Math.floor(benches/2);
   let servingTables = Math.floor(ingredsCooked/80);
   let costMeal = quantity+costVar;
   let costDaily = costMeal*prisoner*mealsday;
