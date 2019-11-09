@@ -78,4 +78,5 @@
 </div>
 
 <script src="scripts/LaundryCalculator.js"></script>
+<script src="scripts/EnergyCalculator.js"></script>
 <?php include 'include/footer.php';?>

@@ -1,3 +1,4 @@
+
 function calculate()
 {
   let prisonerInput = document.getElementById('inputPrisoner');
@@ -12,10 +13,7 @@ function calculate()
   let jobs = baskets;
   let janitors = Math.round(prisoner/100);
 
-  let energy = 10*machines;
-  let powerUntis = Math.ceil(energy/50);
-  let generators = Math.ceil(powerUntis/17);
-  let capacitors = powerUntis - generators;
+  let energy = calculatePower(10*machines);
 
   document.getElementById('resultLaundryBaskets').innerHTML = baskets;
   document.getElementById('resultLaundryIroning').innerHTML = iron;
@@ -23,7 +21,7 @@ function calculate()
   document.getElementById('resultLaundryJobs').innerHTML = jobs;
   document.getElementById('resultLaundryJanitors').innerHTML = janitors;
 
-  document.getElementById('resultPowerGenerators').innerHTML = `${generators}`;
-  document.getElementById('resultPowerCapacitors').innerHTML = `${capacitors}`;
-  document.getElementById('resultPowerEnergy').innerHTML = `${energy}`;
+  document.getElementById('resultPowerGenerators').innerHTML = `${energy.generators}`;
+  document.getElementById('resultPowerCapacitors').innerHTML = `${energy.capacitors}`;
+  document.getElementById('resultPowerEnergy').innerHTML = `${energy.energy}`;
 }
