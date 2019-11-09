@@ -20,13 +20,13 @@
       <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link text-white-50" href="cooking.php">Kitchen & Canteen<span class="sr-only">(current)</span></a>
+            <a class="nav-link text-white-50" href="cooking.php">Kitchen & Canteen</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-white-50" href="cleaning.php">Laundry</a>
+            <a class="nav-link active text-white-50" href="cleaning.php">Laundry <span class="badge badge-primary ml-1" id="resultCostDaily">new</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-white-50" href="workshop.php">Workshop</a>
+            <a class="nav-link active text-white-50" href="workshop.php">Workshop <span class="badge badge-primary ml-1" id="resultCostDaily">soon</span></a>
           </li>
         </ul>
         <a href="https://github.com/Montori/prisoncalc" class="fab fa-github text-light d-inline" title="Follow us on GitHub" style="text-decoration: none;"></a>
