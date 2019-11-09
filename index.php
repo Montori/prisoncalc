@@ -1,6 +1,6 @@
 <?php include 'include/header.php';?>
 
-<div class="container" style="margin-top: 40px;">
+<div class="container" style="margin-top: 40px;margin-bottom: 24%;">
   <div class="card bg-dark text-white text-center">
     <div class="card-body">
       <h1 style="font-size:24px;">Prison Architect Calculator</h1>
