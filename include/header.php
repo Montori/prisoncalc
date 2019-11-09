@@ -23,7 +23,7 @@
             <a class="nav-link text-white-50" href="cooking.php">Kitchen & Canteen<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-white-50" href="cleaning.php">Laundry & Cleaning</a>
+            <a class="nav-link active text-white-50" href="cleaning.php">Laundry</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active text-white-50" href="workshop.php">Workshop</a>
