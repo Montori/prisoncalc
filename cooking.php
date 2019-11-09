@@ -55,7 +55,7 @@
         <div class="col-md-4">
           <div class="bg-dark text-white">
             <div class="card-body">
-              <h1 class="card-title" style="font-size:20px; margin-bottom:20px;">Kitchen</h1>
+              <h1 class="card-title mb-20" style="font-size:20px; margin-bottom:20px;">Kitchen</h1>
               <ul class="list-group">
                 <li class="list-group-item" style="background-color: #484D53;">Cooks <span class="badge badge-primary float-right" id="resultKitchenCooks">0</span></li>
                 <li class="list-group-item" style="background-color: #484D53;">Cookers <span class="badge badge-primary float-right" id="resultKitchenCookers">0</span></li>
@@ -69,7 +69,7 @@
         <div class="col-md-4">
           <div class="bg-dark text-white">
             <div class="card-body">
-              <h1 class="card-title" style="font-size:20px; margin-bottom:20px;">Canteen</h1>
+              <h1 class="card-title mb-20" style="font-size:20px; margin-bottom:20px;">Canteen</h1>
               <ul class="list-group">
                 <li class="list-group-item" style="background-color: #484D53;">Tables <span class="badge badge-primary float-right" id="resultCanteenTables">0</span></li>
                 <li class="list-group-item" style="background-color: #484D53;">Benches <span class="badge badge-primary float-right" id="resultCanteenBenches">0</span></li>
@@ -82,12 +82,27 @@
         <div class="col-md-4">
           <div class="bg-dark text-white">
             <div class="card-body">
-              <h1 class="card-title" style="font-size:20px; margin-bottom:20px;">Costs</h1>
+              <h1 class="card-title mb-20" style="font-size:20px; margin-bottom:20px;">Costs</h1>
               <ul class="list-group">
                 <li class="list-group-item" style="background-color: #484D53;">Quantity Cost <span class="badge badge-primary float-right" id="resultCostQty">$0.00</span></li>
                 <li class="list-group-item" style="background-color: #484D53;">Variety Cost <span class="badge badge-primary float-right" id="resultCostVar">$0.00</span></li>
                 <li class="list-group-item" style="background-color: #484D53;">Meal Cost <span class="badge badge-primary float-right" id="resultCostMeal">$0.00</span></li>
                 <li class="list-group-item" style="background-color: #484D53;">Daily Cost <span class="badge badge-primary float-right" id="resultCostDaily">$0.00</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="bg-dark text-white">
+            <div class="card-body">
+              <h1 class="card-title" style="font-size:20px; margin-bottom:20px;">Electricity</h1>
+              <ul class="list-group">
+                <li class="list-group-item" style="background-color: #484D53;">Generators <span class="badge badge-primary float-right" id="resultGenerators">0</span></li>
+                <li class="list-group-item" style="background-color: #484D53;">Capacitors <span class="badge badge-primary float-right" id="resultCapacitors">0</span></li>
+                <li class="list-group-item" style="background-color: #484D53;">Power <span class="badge badge-primary float-right" id="resultEnergy">0</span></li>
+                <p class="mt-2" style="font-size:11px;">Be advised that you also need power for the water pump and lights</p>
               </ul>
             </div>
           </div>
@@ -101,4 +116,5 @@
 
 
 <script src="scripts/CookingCalculator.js"></script>
+<script src="scripts/EnergyCalculator.js"></script>
 <?php include 'include/footer.php';?>

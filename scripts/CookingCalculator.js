@@ -48,6 +48,8 @@ function calculate()
   let costSingleMeal = quantity+costVariety;
   let costDailyTotal = costSingleMeal*prisoner*mealsPerDay;
 
+  let energy = calculatePower(cookers*10 + fridges*10)
+
   document.getElementById('resultKitchenCooks').innerHTML = cooks;
   document.getElementById('resultKitchenCookers').innerHTML = cookers;
   document.getElementById('resultKitchenFridges').innerHTML = fridges;
@@ -63,6 +65,10 @@ function calculate()
   document.getElementById('resultCostVar').innerHTML = `$${costVariety}.00`;
   document.getElementById('resultCostMeal').innerHTML = `$${costSingleMeal}.00`;
   document.getElementById('resultCostDaily').innerHTML = `$${costDailyTotal}.00`;
+
+  document.getElementById('resultGenerators').innerHTML = energy.generators;
+  document.getElementById('resultCapacitors').innerHTML = energy.capacitors;
+  document.getElementById('resultEnergy').innerHTML = energy.energy;
 
   function checkValid()
   {
