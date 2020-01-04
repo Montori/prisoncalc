@@ -23,10 +23,10 @@
             <a class="nav-link text-white-50" href="cooking.php">Kitchen & Canteen</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-white-50" href="cleaning.php">Laundry <span class="badge badge-primary ml-1">new</span></a>
+            <a class="nav-link active text-white-50" href="cleaning.php">Laundry</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-white-50" href="workshop.php">Workshop <span class="badge badge-primary ml-1">soon</span></a>
+            <a class="nav-link active text-white-50" href="workshop.php">Workshop</a>
           </li>
         </ul>
         <a href="https://github.com/Montori/prisoncalc" class="fab fa-github text-light d-inline" title="Follow us on GitHub" style="text-decoration: none;"></a>
