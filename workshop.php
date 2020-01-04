@@ -31,7 +31,7 @@
                   <li class="list-group-item" style="background-color: #484D53;">Saw <span class="badge badge-primary float-right" id="resultSaw">0</span></li>
                   <li class="list-group-item" style="background-color: #484D53;">Press <span class="badge badge-primary float-right" id="resultPress">0</span></li>
                   <li class="list-group-item" style="background-color: #484D53;">Tables <span class="badge badge-primary float-right" id="resultTables">0</span></li>
-                  <li class="list-group-item" style="background-color: #484D53;">Profit <span class="badge badge-primary float-right" id="resultProfit">$0.00</span></li>
+                  <li class="list-group-item" style="background-color: #484D53;">Profit per day<span class="badge badge-primary float-right" id="resultProfit">$0.00</span></li>
                 </ul>
               </div>
             </div>
